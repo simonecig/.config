@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/big_sur.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#271a05",
+        "foreground": "#c9c5c0",
+        "cursor": "#c9c5c0"
+    },
+    "colors": {
+        "color0": "#271a05",
+        "color1": "#c8831b",
+        "color2": "#1286c4",
+        "color3": "#a4b1c4",
+        "color4": "#983e9e",
+        "color5": "#c30e73",
+        "color6": "#c82b37",
+        "color7": "#c9c5c0",
+        "color8": "#5d5343",
+        "color9": "#c8831b",
+        "color10": "#1286c4",
+        "color11": "#a4b1c4",
+        "color12": "#983e9e",
+        "color13": "#c30e73",
+        "color14": "#c82b37",
+        "color15": "#c9c5c0"
+    }
+}

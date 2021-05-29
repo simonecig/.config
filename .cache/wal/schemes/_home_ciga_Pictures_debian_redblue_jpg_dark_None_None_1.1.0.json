@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/debian_redblue.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#00091E",
+        "foreground": "#e27b9f",
+        "cursor": "#e27b9f"
+    },
+    "colors": {
+        "color0": "#00091E",
+        "color1": "#3E5160",
+        "color2": "#40525E",
+        "color3": "#455867",
+        "color4": "#556770",
+        "color5": "#65767B",
+        "color6": "#A21A52",
+        "color7": "#e27b9f",
+        "color8": "#9e566f",
+        "color9": "#3E5160",
+        "color10": "#40525E",
+        "color11": "#455867",
+        "color12": "#556770",
+        "color13": "#65767B",
+        "color14": "#A21A52",
+        "color15": "#e27b9f"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/1920x1200.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0d101a",
+        "foreground": "#c5c9cf",
+        "cursor": "#c5c9cf"
+    },
+    "colors": {
+        "color0": "#0d101a",
+        "color1": "#2c5db1",
+        "color2": "#2c65b2",
+        "color3": "#3066c1",
+        "color4": "#4175cf",
+        "color5": "#4d84d2",
+        "color6": "#5c94d6",
+        "color7": "#c5c9cf",
+        "color8": "#898c90",
+        "color9": "#2c5db1",
+        "color10": "#2c65b2",
+        "color11": "#3066c1",
+        "color12": "#4175cf",
+        "color13": "#4d84d2",
+        "color14": "#5c94d6",
+        "color15": "#c5c9cf"
+    }
+}

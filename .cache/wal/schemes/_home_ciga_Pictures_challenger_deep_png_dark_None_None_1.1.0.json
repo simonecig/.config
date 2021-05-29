@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/challenger_deep.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0f0d19",
+        "foreground": "#c6eaef",
+        "cursor": "#c6eaef"
+    },
+    "colors": {
+        "color0": "#0f0d19",
+        "color1": "#6962A2",
+        "color2": "#AE719C",
+        "color3": "#9E75EB",
+        "color4": "#906CFE",
+        "color5": "#66B2FE",
+        "color6": "#69CCC1",
+        "color7": "#c6eaef",
+        "color8": "#8aa3a7",
+        "color9": "#6962A2",
+        "color10": "#AE719C",
+        "color11": "#9E75EB",
+        "color12": "#906CFE",
+        "color13": "#66B2FE",
+        "color14": "#69CCC1",
+        "color15": "#c6eaef"
+    }
+}

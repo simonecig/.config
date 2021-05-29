@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/ciga/Pictures/mac_night.png"
+let background = "#0A0E16"
+let foreground = "#cbc7bf"
+let cursor     = "#cbc7bf"
+
+" Colors
+let color0  = "#0A0E16"
+let color1  = "#6F6659"
+let color2  = "#924F2F"
+let color3  = "#947357"
+let color4  = "#7E817B"
+let color5  = "#9C8973"
+let color6  = "#C7956C"
+let color7  = "#cbc7bf"
+let color8  = "#8e8b85"
+let color9  = "#6F6659"
+let color10 = "#924F2F"
+let color11 = "#947357"
+let color12 = "#7E817B"
+let color13 = "#9C8973"
+let color14 = "#C7956C"
+let color15 = "#cbc7bf"

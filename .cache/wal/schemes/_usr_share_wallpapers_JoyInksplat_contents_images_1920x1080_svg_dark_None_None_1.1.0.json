@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/usr/share/wallpapers/JoyInksplat/contents/images/1920x1080.svg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c6c0e",
+        "foreground": "#e3d9e6",
+        "cursor": "#e3d9e6"
+    },
+    "colors": {
+        "color0": "#0c6c0e",
+        "color1": "#77E388",
+        "color2": "#89C69E",
+        "color3": "#9C36A3",
+        "color4": "#AC92B9",
+        "color5": "#B9FBC5",
+        "color6": "#CBF0CD",
+        "color7": "#e3d9e6",
+        "color8": "#9e97a1",
+        "color9": "#77E388",
+        "color10": "#89C69E",
+        "color11": "#9C36A3",
+        "color12": "#AC92B9",
+        "color13": "#B9FBC5",
+        "color14": "#CBF0CD",
+        "color15": "#e3d9e6"
+    }
+}

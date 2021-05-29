@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Downloads/Related Wallpapers from DC Logo Wallpaper.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101621",
+        "foreground": "#c3c4c7",
+        "cursor": "#c3c4c7"
+    },
+    "colors": {
+        "color0": "#101621",
+        "color1": "#5170aa",
+        "color2": "#6c78aa",
+        "color3": "#9c5aa5",
+        "color4": "#aa3176",
+        "color5": "#aa1352",
+        "color6": "#c4074b",
+        "color7": "#c3c4c7",
+        "color8": "#4b5058",
+        "color9": "#5170aa",
+        "color10": "#6c78aa",
+        "color11": "#9c5aa5",
+        "color12": "#aa3176",
+        "color13": "#aa1352",
+        "color14": "#c4074b",
+        "color15": "#c3c4c7"
+    }
+}

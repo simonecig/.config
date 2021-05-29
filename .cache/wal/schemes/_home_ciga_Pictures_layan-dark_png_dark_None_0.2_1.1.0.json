@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/layan-dark.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121216",
+        "foreground": "#a7a6f4",
+        "cursor": "#a7a6f4"
+    },
+    "colors": {
+        "color0": "#121216",
+        "color1": "#52527b",
+        "color2": "#5f608f",
+        "color3": "#606090",
+        "color4": "#7878a5",
+        "color5": "#8a89b0",
+        "color6": "#9696b9",
+        "color7": "#a7a6f4",
+        "color8": "#7474aa",
+        "color9": "#52527b",
+        "color10": "#5f608f",
+        "color11": "#606090",
+        "color12": "#7878a5",
+        "color13": "#8a89b0",
+        "color14": "#9696b9",
+        "color15": "#a7a6f4"
+    }
+}

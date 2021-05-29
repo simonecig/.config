@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/rover.JPG",
+    "alpha": "100",
+    "special": {
+        "background": "#3f0b0c",
+        "foreground": "#d6beab",
+        "cursor": "#d6beab"
+    },
+    "colors": {
+        "color0": "#3f0b0c",
+        "color1": "#B14C32",
+        "color2": "#CD4B32",
+        "color3": "#E15A35",
+        "color4": "#A26B4D",
+        "color5": "#D76B4B",
+        "color6": "#708E6B",
+        "color7": "#d6beab",
+        "color8": "#958577",
+        "color9": "#B14C32",
+        "color10": "#CD4B32",
+        "color11": "#E15A35",
+        "color12": "#A26B4D",
+        "color13": "#D76B4B",
+        "color14": "#708E6B",
+        "color15": "#d6beab"
+    }
+}
