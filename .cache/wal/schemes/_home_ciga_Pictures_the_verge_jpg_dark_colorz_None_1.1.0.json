@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/the_verge.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121121",
+        "foreground": "#c3c3c7",
+        "cursor": "#c3c3c7"
+    },
+    "colors": {
+        "color0": "#121121",
+        "color1": "#5e57a9",
+        "color2": "#2a16ae",
+        "color3": "#581dac",
+        "color4": "#8116ab",
+        "color5": "#a40fa8",
+        "color6": "#ac0f7a",
+        "color7": "#c3c3c7",
+        "color8": "#4d4c58",
+        "color9": "#5e57a9",
+        "color10": "#2a16ae",
+        "color11": "#581dac",
+        "color12": "#8116ab",
+        "color13": "#a40fa8",
+        "color14": "#ac0f7a",
+        "color15": "#c3c3c7"
+    }
+}

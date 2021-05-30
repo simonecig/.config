@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/clouds.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0f161b",
+        "foreground": "#dcdfde",
+        "cursor": "#dcdfde"
+    },
+    "colors": {
+        "color0": "#0f161b",
+        "color1": "#8E9DA3",
+        "color2": "#99A7AD",
+        "color3": "#ABB4B4",
+        "color4": "#C1C4BB",
+        "color5": "#ACBBC4",
+        "color6": "#B8C4CA",
+        "color7": "#dcdfde",
+        "color8": "#9a9c9b",
+        "color9": "#8E9DA3",
+        "color10": "#99A7AD",
+        "color11": "#ABB4B4",
+        "color12": "#C1C4BB",
+        "color13": "#ACBBC4",
+        "color14": "#B8C4CA",
+        "color15": "#dcdfde"
+    }
+}

@@ -98,6 +98,7 @@ keys = [
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch terminal"),
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.window.toggle_fullscreen(), desc="Toggle fullscreen"),
+    Key([mod, "shift"], "Tab", lazy.next_layout(), desc="Cycle layouts"),
     Key([mod, "shift"], "q", lazy.window.kill(), desc="Kill focused window"),
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
@@ -172,19 +173,21 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
+                widget.CurrentLayoutIcon(background=colors[4], foreground=colors[8], scale=0.5),
+                widget.Sep(foreground=colors[0], size_percent=60),
+                widget.GroupBox(background=colors[3], rounded=True, inactive=colors[7]),
                 widget.Spacer(length=bar.STRETCH),
-                widget.Systray(),
-                widget.Spacer(length=10),
-                widget.Sep(foreground=colors[5], size_percent=60),
-                widget.Clock(format="  %a %I:%M %p ", foreground=colors[1]),
-                widget.Clock(format=" %m-%d ", foreground=colors[1]),
-                widget.Sep(foreground=colors[5], size_percent=60),
+                widget.Systray(icon_size=25, padding=5, background=colors[5]),
+                #widget.Spacer(length=10),
+                widget.Sep(foreground=colors[0], size_percent=60),
+                widget.Clock(format="  %a %I:%M %p ", foreground=colors[0], background=colors[6]),
+                widget.Clock(format=" %m-%d ", foreground=colors[0], background=colors[6]),
+                widget.Sep(foreground=colors[0], size_percent=60),
                 widget.Backlight(
                     backlight_name="amdgpu_bl0",
                     format="  {percent:2.0%} ",
                     foreground=colors[2],
+                    background=colors[7],
                 ),
                 widget.Battery(
                     charge_char="",
@@ -196,17 +199,16 @@ screens = [
                     update_interval=1,
                     foreground=colors[3],
                     show_short_text=False,
+                    background=colors[7],
                 ),
-                widget.Volume(foreground=colors[5], fmt="墳 {0}"),
+                widget.Volume(background=colors[7],foreground=colors[1], fmt="墳 {0}"),
                 widget.QuickExit(
-                    default_text="  ", countdown_format="{}", foreground=colors[4]
+                    default_text="  ", countdown_format="{}", foreground=colors[4], background=colors[7],
                 ),
             ],
-            44,
-            margin=14,
+            30,
             background=colors[0],
-            opacity=0.95,
-            border=colors[7],
+            opacity=1,
         )
     )
 ]

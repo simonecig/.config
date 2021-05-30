@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/mojave_night.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#131821",
+        "foreground": "#c4c5c7",
+        "cursor": "#c4c5c7"
+    },
+    "colors": {
+        "color0": "#131821",
+        "color1": "#637daa",
+        "color2": "#5e77aa",
+        "color3": "#7483aa",
+        "color4": "#586faa",
+        "color5": "#697baa",
+        "color6": "#4d67aa",
+        "color7": "#c4c5c7",
+        "color8": "#4e5158",
+        "color9": "#637daa",
+        "color10": "#5e77aa",
+        "color11": "#7483aa",
+        "color12": "#586faa",
+        "color13": "#697baa",
+        "color14": "#4d67aa",
+        "color15": "#c4c5c7"
+    }
+}

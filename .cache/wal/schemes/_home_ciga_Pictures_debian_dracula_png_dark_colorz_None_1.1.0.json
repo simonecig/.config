@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/debian_dracula.png",
+    "alpha": "100",
+    "special": {
+        "background": "#191a21",
+        "foreground": "#c5c5c7",
+        "cursor": "#c5c5c7"
+    },
+    "colors": {
+        "color0": "#191a21",
+        "color1": "#7e84aa",
+        "color2": "#8288aa",
+        "color3": "#878baa",
+        "color4": "#8a8eaa",
+        "color5": "#7c82aa",
+        "color6": "#7e75aa",
+        "color7": "#c5c5c7",
+        "color8": "#525358",
+        "color9": "#7e84aa",
+        "color10": "#8288aa",
+        "color11": "#878baa",
+        "color12": "#8a8eaa",
+        "color13": "#7c82aa",
+        "color14": "#7e75aa",
+        "color15": "#c5c5c7"
+    }
+}
