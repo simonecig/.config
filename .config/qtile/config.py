@@ -140,7 +140,6 @@ for i in groups:
 
 layouts = [
     # layout.Columns(border_normal=colors[0], border_focus=colors[7], border_width=5, margin=3, num_columns=3, border_on_single=True),
-    layout.Max(border_normal=colors[0], border_focus=colors[6], border_width=3),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2, border_normal=colors[0], border_focus=colors[6]),
     layout.Bsp(
@@ -150,6 +149,7 @@ layouts = [
         border_focus=colors[6],
         border_width=3,
     ),
+    layout.Max(border_normal=colors[0], border_focus=colors[6], border_width=3),
     # layout.Matrix(),
     # layout.MonadTall(),
     # layout.MonadWide(),
@@ -162,7 +162,7 @@ layouts = [
 
 widget_defaults = dict(
     font="RobotoMono Nerd Font",
-    fontsize=18,
+    fontsize=16,
     padding=3,
     background=colors[0],
     foreground=colors[7],
@@ -173,21 +173,20 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayoutIcon(background=colors[4], foreground=colors[8], scale=0.5),
+                widget.CurrentLayoutIcon(background=colors[4], scale=0.5),
                 widget.Sep(foreground=colors[0], size_percent=60),
-                widget.GroupBox(background=colors[3], rounded=True, inactive=colors[7]),
+                widget.GroupBox(),
                 widget.Spacer(length=bar.STRETCH),
-                widget.Systray(icon_size=25, padding=5, background=colors[5]),
+                widget.Systray(icon_size=20, padding=5, background=colors[0]),
                 #widget.Spacer(length=10),
                 widget.Sep(foreground=colors[0], size_percent=60),
-                widget.Clock(format="  %a %I:%M %p ", foreground=colors[0], background=colors[6]),
-                widget.Clock(format=" %m-%d ", foreground=colors[0], background=colors[6]),
-                widget.Sep(foreground=colors[0], size_percent=60),
+                widget.Clock(format="  %a %I:%M %p ",  background=colors[0]),
+                widget.Clock(format=" %m-%d ",  background=colors[0]),
+                widget.Sep(size_percent=60),
                 widget.Backlight(
                     backlight_name="amdgpu_bl0",
                     format="  {percent:2.0%} ",
-                    foreground=colors[2],
-                    background=colors[7],
+                    background=colors[0],
                 ),
                 widget.Battery(
                     charge_char="",
@@ -197,13 +196,12 @@ screens = [
                     format="{char} {percent:2.0%} ",
                     notify_below=15,
                     update_interval=1,
-                    foreground=colors[3],
                     show_short_text=False,
-                    background=colors[7],
+                    background=colors[0],
                 ),
-                widget.Volume(background=colors[7],foreground=colors[1], fmt="墳 {0}"),
+                widget.Volume(background=colors[0], fmt="墳 {0}"),
                 widget.QuickExit(
-                    default_text="  ", countdown_format="{}", foreground=colors[4], background=colors[7],
+                    default_text="  ", countdown_format="{}", background=colors[0],
                 ),
             ],
             30,
