@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/ciga/Pictures/desert-red-sky.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c1221",
+        "foreground": "#c2c3c7",
+        "cursor": "#c2c3c7"
+    },
+    "colors": {
+        "color0": "#0c1221",
+        "color1": "#405daa",
+        "color2": "#8f64a9",
+        "color3": "#aa598a",
+        "color4": "#aa4975",
+        "color5": "#ad3c64",
+        "color6": "#c04568",
+        "color7": "#c2c3c7",
+        "color8": "#484d58",
+        "color9": "#405daa",
+        "color10": "#8f64a9",
+        "color11": "#aa598a",
+        "color12": "#aa4975",
+        "color13": "#ad3c64",
+        "color14": "#c04568",
+        "color15": "#c2c3c7"
+    }
+}

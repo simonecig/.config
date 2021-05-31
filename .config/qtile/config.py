@@ -26,7 +26,7 @@
 
 from typing import List  # noqa: F401
 
-from libqtile import bar, layout, widget
+from libqtile import bar, layout, widget, extension
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
@@ -131,10 +131,19 @@ for i in groups:
                 lazy.window.togroup(i.name, switch_group=True),
                 desc="Switch to & move focused window to group {}".format(i.name),
             ),
-            # Or, use below if you prefer not to switch to that group.
-            # # mod1 + shift + letter of group = move focused window to group
-            # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-            #     desc="move focused window to group {}".format(i.name)),
+            Key(
+                [mod, "shift"],
+                "m",
+                lazy.run_extension(
+                    extension.WindowList(
+                        dmenu_ignorecase=True,
+                        fontsize=12,
+                        item_format="{window}",
+                        selected_background=colors[4],
+                        selected_foreground=colors[8],
+                    )
+                ),
+            ),
         ]
     )
 
@@ -162,6 +171,7 @@ layouts = [
 
 widget_defaults = dict(
     font="RobotoMono Nerd Font",
+    # font="Roboto",
     fontsize=16,
     padding=3,
     background=colors[0],
@@ -169,19 +179,28 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+
+def open_stuff(qtile):
+    qtile.cmd_spawn("chromium")
+
+
 screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayoutIcon(background=colors[4], scale=0.5),
+                widget.CurrentLayoutIcon(
+                    background=colors[1],
+                    scale=0.5,
+                    mouse_callbacks={"hover": open_stuff},
+                ),
                 widget.Sep(foreground=colors[0], size_percent=60),
                 widget.GroupBox(),
                 widget.Spacer(length=bar.STRETCH),
                 widget.Systray(icon_size=20, padding=5, background=colors[0]),
-                #widget.Spacer(length=10),
+                # widget.Spacer(length=10),
                 widget.Sep(foreground=colors[0], size_percent=60),
-                widget.Clock(format="  %a %I:%M %p ",  background=colors[0]),
-                widget.Clock(format=" %m-%d ",  background=colors[0]),
+                widget.Clock(format="  %a %I:%M %p ", background=colors[0]),
+                widget.Clock(format=" %m-%d ", background=colors[0]),
                 widget.Sep(size_percent=60),
                 widget.Backlight(
                     backlight_name="amdgpu_bl0",
@@ -201,7 +220,7 @@ screens = [
                 ),
                 widget.Volume(background=colors[0], fmt="墳 {0}"),
                 widget.QuickExit(
-                    default_text="  ", countdown_format="{}", background=colors[0],
+                    default_text="  ", countdown_format="{}", background=colors[0]
                 ),
             ],
             30,
