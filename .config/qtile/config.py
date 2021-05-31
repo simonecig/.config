@@ -152,7 +152,7 @@ layouts = [
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2, border_normal=colors[0], border_focus=colors[6]),
     layout.Bsp(
-        margin=5,
+        margin=10,
         ratio=1,
         border_normal=colors[0],
         border_focus=colors[6],
