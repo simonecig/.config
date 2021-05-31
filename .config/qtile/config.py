@@ -80,11 +80,11 @@ keys = [
     Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
     # audio
     Key([], "XF86AudioMute", lazy.spawn("amixer -q set Master toggle")),
-    Key([], "XF86AudioLowerVolume", lazy.spawn("amixer set Master 10%- unmute")),
-    Key([], "XF86AudioRaiseVolume", lazy.spawn("amixer set Master 10%+ unmute")),
+    Key([], "XF86AudioLowerVolume", lazy.spawn("amixer set Master 5%- unmute")),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("amixer set Master 5%+ unmute")),
     # brightness
-    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +50")),
-    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 50- --min-value=1")),
+    Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10")),
+    Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10- --min-value=5")),
     # Toggle between split and unsplit sides of stack.
     # Split = all windows displayed
     # Unsplit = 1 window displayed, like Max layout, but still with
